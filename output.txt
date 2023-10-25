@@ -1,0 +1,48 @@
+No multiple single driven errors found in AND2.v
+
+No multiple single driven errors found in Decoder3x8.v
+
+Multiple single driven errors found in ALU8.v:
+Signal: Output
+  Line 9: = A + B
+  Line 10: = A - B
+  Line 11: = A & B
+  Line 12: = A | B
+
+No multiple single driven errors found in Adder4.v
+
+No multiple single driven errors found in Multiplier4x4.v
+
+No multiple single driven errors found in OR2.v
+
+No multiple single driven errors found in DFF.v
+
+Multiple single driven errors found in MUX4to1.v:
+Signal: Y
+  Line 9: = D0
+  Line 10: = D1
+  Line 11: = D2
+  Line 12: = D3
+
+Multiple single driven errors found in ShiftRegister4bit.v:
+Signal: Output
+  Line 9: <= {Output[2:0], Data[0]}
+  Line 11: <= Data
+
+Multiple single driven errors found in Counter3bit.v:
+Signal: Count
+  Line 7: <= Count + 1
+  Line 8: <= Count - 1
+
+Multiple single driven errors found in MultipleDrivenExample.v:
+Signal: X
+  Line 7: <= A
+  Line 10: <= B
+
+Multiple single driven errors found in SR_Latch.v:
+Signal: Q
+  Line 7: = 1'b1
+  Line 8: = 1'b0
+
+No multiple single driven errors found in HalfAdder.v
+
